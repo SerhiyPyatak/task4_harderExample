@@ -1,0 +1,115 @@
+body {
+    margin:             0;
+    padding:            0 0 0 15px;
+    box-sizing:         border-box;
+    background-color:   #990909;
+}
+
+.main-header {
+    text-align:         center;
+    margin-top:         20px;
+    margin-bottom:      5px;
+}
+
+div#title-logo {
+    margin-bottom:      10px;
+}
+
+img.logo {
+    height:             50px;
+    width:              auto;
+}
+
+img.menu-picture {
+    height:             150px;
+    width:              auto;
+}
+
+nav {
+    display:            flex;
+    justify-content:    space-around;
+    align-items:        center;
+    background-color:   #000000;
+    height:             215px;
+}
+
+a.menu-item {
+    align-self:         center;
+    color:              #fff;
+    text-decoration:    none;
+}
+
+a.menu-item > h2 {
+    margin:             5px 0 0 0;
+}
+
+aside.left-part {
+    float:              left;
+    background-color:   #7D0909;
+    width:              20%;
+    height:             50vh;
+    margin-right:       8px;
+    padding-bottom:     30px;
+    margin-bottom:      20px;
+}
+
+.left-aside-item {
+    margin-bottom:      40px;
+}
+
+a.left-aside-link {
+    color:              #E25B11;
+    font-size:          18px;
+}
+
+aside.right-part {
+    float:              right;
+    background-color:   #E3DDDD;
+    width:              12%;
+    height:             50vh;
+    margin-left:        8px;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    space-between;
+    padding-bottom:     30px;
+    font-size:          18px;
+    margin-bottom:      20px;
+}
+
+main {
+    height:             50vh;
+    color:              #fff;
+    padding-top:        10px;
+}
+
+p, section {
+    font-size:          18px;;
+}
+
+.right-aside-header {
+    background-color:   #BDBDBD;
+    text-align:         center;
+    height:             35px;
+    padding-top:        10px;
+    font-weight:bolder;
+}
+
+.aside-divider > hr {
+    width:              50%;
+}
+
+.right-side-item {
+    margin-top: 30px;
+}
+
+footer {
+    clear:              both;
+    background-color:   #E95B11;
+    text-align:         center;
+    color:              #fff;
+}
+
+footer h3 {
+    font-size:          20px;
+    font-weight:        lighter;
+}
